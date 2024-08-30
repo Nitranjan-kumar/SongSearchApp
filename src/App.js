@@ -15,7 +15,7 @@ function App() {
         params: {
           term: searchQuery || 'top', // Use searchQuery or default to 'top' result importan
           locale: 'en-IN',
-          limit: '5'
+          limit: '10'
         },
         headers: {
           'x-rapidapi-key': '4fd8237917mshe99033230cd1768p110494jsnb9177529d866',
